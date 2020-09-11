@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="DELETE">
+        <category>general</category>
+        <client_script/>
+        <description>HTML for Angular App</description>
+        <direct>false</direct>
+        <endpoint>x_528637_angular_a_angular_app.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"></link>
+	<div ng-app="">
+		<input type="text" ng-model="myVar" placeholder="Enter some text here"></input>
+		{{myVar}}
+	</div>
+</j:jelly>]]></html>
+        <name>angular_app</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-10 20:57:57</sys_created_on>
+        <sys_id>25dbbaa307471010b582f48f7c1ed00a</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>angular_app</sys_name>
+        <sys_package display_value="Angular App" source="x_528637_angular_a">4fb8e22b07071010b582f48f7c1ed03b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Angular App">4fb8e22b07071010b582f48f7c1ed03b</sys_scope>
+        <sys_update_name>sys_ui_page_25dbbaa307471010b582f48f7c1ed00a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-11 12:19:15</sys_updated_on>
+    </sys_ui_page>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Angular App">4fb8e22b07071010b582f48f7c1ed03b</application>
+        <file_path/>
+        <instance_id>17e39319db164c1052cec59705961910</instance_id>
+        <instance_name>dev96688</instance_name>
+        <name>sys_ui_page_25dbbaa307471010b582f48f7c1ed00a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script/&gt;&lt;description&gt;HTML for Angular App&lt;/description&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint&gt;x_528637_angular_a_angular_app.do&lt;/endpoint&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+	&lt;script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"&gt;&lt;/script&gt;
+	&lt;link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"&gt;&lt;/link&gt;
+	&lt;div ng-app=""&gt;
+		&lt;input type="text" ng-model="myVar" placeholder="Enter some text here"&gt;&lt;/input&gt;
+		{{myVar}}
+	&lt;/div&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;angular_app&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-09-10 20:57:57&lt;/sys_created_on&gt;&lt;sys_id&gt;25dbbaa307471010b582f48f7c1ed00a&lt;/sys_id&gt;&lt;sys_mod_count&gt;7&lt;/sys_mod_count&gt;&lt;sys_name&gt;angular_app&lt;/sys_name&gt;&lt;sys_package display_value="Angular App" source="x_528637_angular_a"&gt;4fb8e22b07071010b582f48f7c1ed03b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Angular App"&gt;4fb8e22b07071010b582f48f7c1ed03b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_25dbbaa307471010b582f48f7c1ed00a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-11 12:19:15&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>775257321</payload_hash>
+        <record_name>angular_app</record_name>
+        <reverted_from/>
+        <source>8fb8e22b07071010b582f48f7c1ed03d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-11 12:19:16</sys_created_on>
+        <sys_id>7dde82bb074f1010b582f48f7c1ed0d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1747d1b01bc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-11 12:19:16</sys_updated_on>
+        <type>UI Page</type>
+        <update_guid>35de82bb214f101027f58a212a84c8d4</update_guid>
+        <update_guid_history>35de82bb214f101027f58a212a84c8d4:775257321,9c23076ba747101042a4080ac18a45d0:1489617804,7a32c767c347101031c18999df7f1a32:643071958,aff00fe766471010cd5e2c373c1301e7:1117683492,fb5df2676d47101057b33af7f264b0d3:954183375,debc32675f47101080b082c74a8b0e0f:1117683492,c90c3ea3ec47101072085e22d3ac2b3a:1823185555,8afb3a6b2607101040a41867ba9dad59:434207744</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-11 12:21:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_page">sys_ui_page</sys_db_object>
+        <sys_id>a10a801c85fb462eba6c9669fa6f4004</sys_id>
+        <sys_metadata>25dbbaa307471010b582f48f7c1ed00a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>angular_app</sys_name>
+        <sys_package display_value="Angular App" source="x_528637_angular_a">4fb8e22b07071010b582f48f7c1ed03b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Angular App">4fb8e22b07071010b582f48f7c1ed03b</sys_scope>
+        <sys_scope_delete display_value="">22537186548a437ca08289969754d269</sys_scope_delete>
+        <sys_update_name>sys_ui_page_25dbbaa307471010b582f48f7c1ed00a</sys_update_name>
+        <sys_update_version display_value="sys_ui_page_25dbbaa307471010b582f48f7c1ed00a">7dde82bb074f1010b582f48f7c1ed0d4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-11 12:21:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
